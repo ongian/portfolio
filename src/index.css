@@ -56,7 +56,7 @@ body .offcanvas .fa-xmark:hover {
 }
 
 body .masthead {
-  min-height: 540px;
+  min-height: 100vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -67,10 +67,6 @@ body .masthead {
 
 body .masthead h1 {
   color: #e95548;
-}
-
-body .masthead img {
-  max-width: 400px;
 }
 
 body .masthead .resume {
@@ -87,6 +83,7 @@ body .masthead .resume:hover {
 
 body .masthead .contact a {
   font-size: 2.5rem;
+  line-height: 1.5rem;
   margin: 0 10px;
 }
 
@@ -257,6 +254,12 @@ body .card:hover h3 {
 @media (min-width: 992px) {
   body nav .nav-toggle {
     display: none;
+  }
+  body .masthead {
+    min-height: 540px;
+  }
+  body .masthead img {
+    max-width: 400px;
   }
 }
 /*# sourceMappingURL=index.css.map */

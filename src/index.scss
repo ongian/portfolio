@@ -48,14 +48,11 @@ body {
         }
     }
     .masthead {
-        min-height: 540px;
+        min-height: 100vh;
         align-items: center;
         display: flex;
         h1 {
             color: $secondary;
-        }
-        img {
-            max-width: 400px;
         }
         .resume {
             background: $secondary;
@@ -69,6 +66,7 @@ body {
         .contact {
             a {
                 font-size: 2.5rem;
+                line-height: 1.5rem;
                 margin: 0 10px;
                 .fa-github-square {
                     color: #fff;
@@ -217,6 +215,12 @@ body {
         nav {
             .nav-toggle {
                 display: none;
+            }
+        }
+        .masthead {
+            min-height: 540px;
+            img {
+                max-width: 400px;
             }
         }
     }

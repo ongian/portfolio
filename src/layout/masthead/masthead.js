@@ -22,16 +22,16 @@ const Masthead = () => {
                         <Image className="m-auto d-block" fluid src="./img/developer-icon.png" alt="Developer" />
                     </Col>
                 </Row>
-                <Row className="align-items-center mt-5">
-                    <Col xs={12} md={6} className="text-center">
+                <Row className="align-items-center mt-4">
+                    <Col xs={12} md={6} className="text-center mt-3">
                         <small>Download my resume</small>
-                        <div className="d-block mt-3">
+                        <div className="d-block mt-1">
                             <Button href="./img/Christian_Ong.pdf" download className="resume">Download</Button>
                         </div>
                     </Col>
-                    <Col xs={12} md={6} className="text-center">
+                    <Col xs={12} md={6} className="text-center mt-3">
                         <small>Connect with me</small>
-                        <div className="d-flex align-items-center justify-content-center contact mt-2">
+                        <div className="d-flex align-items-center justify-content-center contact mt-1">
                             <a href="https://github.com/ongian" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={faGithubSquare} />
                             </a>

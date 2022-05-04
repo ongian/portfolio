@@ -6,6 +6,12 @@ const Header = () => {
     const [show, setShow] = useState(false);
 
     const toggleCanvas = () => setShow(!show);
+    const closeCanvass = () => setShow(false);
+    const closeOnLinkClick = () => {
+        setTimeout(() => {
+            setShow(false)
+        }, 1000)
+    }
     return ( 
     <Navbar expand="lg" className="mb-3" fixed="top" collapseOnSelect>
         <Container>
@@ -20,14 +26,14 @@ const Header = () => {
                 aria-labelledby="offcanvasNavbarLabel-expand-lg"
                 placement="end"
                 show={show ? true : undefined}
-                onHide={toggleCanvas}>
+                onHide={closeCanvass}>
                 <Offcanvas.Header className="justify-content-end">
                     <FontAwesomeIcon icon={faXmark} onClick={toggleCanvas} />
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <Nav className="justify-content-end flex-grow-1 pe-3">
-                        <Nav.Link href="#skills">Skills</Nav.Link>
-                        <Nav.Link href="#projects">Projects</Nav.Link>
+                        <Nav.Link href="#skills" onClick={closeOnLinkClick}>Skills</Nav.Link>
+                        <Nav.Link href="#projects" onClick={closeOnLinkClick}>Projects</Nav.Link>
                     </Nav>
                 </Offcanvas.Body>
             </Navbar.Offcanvas>
