@@ -31,7 +31,7 @@ const Masthead = () => {
                     </Col>
                     <Col xs={12} md={6} className="text-center mt-3">
                         <small>Connect with me</small>
-                        <div className="d-flex align-items-center justify-content-center contact mt-1">
+                        <div className="d-flex align-items-center justify-content-between justify-content-md-center contact mt-1">
                             <a href="https://github.com/ongian" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon icon={faGithubSquare} />
                             </a>

@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #1E1D20 !important;
   color: #E0B15D !important;
@@ -73,6 +77,10 @@ body .masthead .resume {
   background: #e95548;
   border: none;
   color: #fff;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 15px;
 }
 
 body .masthead .resume:hover {
@@ -82,7 +90,7 @@ body .masthead .resume:hover {
 }
 
 body .masthead .contact a {
-  font-size: 2.5rem;
+  font-size: 5rem;
   line-height: 1.5rem;
   margin: 0 10px;
 }
@@ -235,6 +243,12 @@ body .card .desc span {
 body .card .desc a.btn {
   margin-top: 15px;
   width: 100%;
+  background-color: #e95548;
+  border: none;
+}
+
+body .card .desc a.btn:hover {
+  background-color: #b32e23;
 }
 
 body .card:hover .desc {
@@ -260,6 +274,9 @@ body .card:hover h3 {
   }
   body .masthead img {
     max-width: 400px;
+  }
+  body .masthead .resume {
+    max-width: 250px;
   }
 }
 /*# sourceMappingURL=index.css.map */

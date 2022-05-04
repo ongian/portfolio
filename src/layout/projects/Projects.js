@@ -3,7 +3,6 @@ import {Container, Row, Col} from 'react-bootstrap';
 import { projects } from '../../projects';
 import Cards from '../cards/Cards';
 const Projects = () => {
-    console.log(projects)
     return (
         <section id="projects">
             <Container>
