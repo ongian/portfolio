@@ -73,8 +73,37 @@ body .masthead img {
   max-width: 400px;
 }
 
+body .masthead .resume {
+  background: #e95548;
+  border: none;
+  color: #fff;
+}
+
+body .masthead .resume:hover {
+  background-color: #b32e23;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+body .masthead .contact a {
+  font-size: 2.5rem;
+  margin: 0 10px;
+}
+
+body .masthead .contact a .fa-github-square {
+  color: #fff;
+}
+
+body .masthead .contact a .faLinkedin {
+  color: #0a66c2;
+}
+
+body .masthead .contact a .fa-envelope {
+  color: #E0B15D;
+}
+
 body #skills, body #projects {
-  margin: 4rem 0;
+  padding: 4rem 0;
 }
 
 body #skills h2, body #projects h2 {
@@ -84,10 +113,60 @@ body #skills h2, body #projects h2 {
 body #skills .col, body #projects .col {
   text-align: center;
   margin: 2rem 1rem;
+  color: #E0B15D;
+  -webkit-transition: all .25s ease;
+  transition: all .25s ease;
 }
 
 body #skills .col svg, body #projects .col svg {
   font-size: 3rem;
+}
+
+body #skills .col small, body #projects .col small {
+  display: block;
+  margin: 1em;
+}
+
+body #skills .col.html:hover, body #projects .col.html:hover {
+  color: #dd4b25;
+  -webkit-transition: color 1.5s ease;
+  transition: color 1.5s ease;
+}
+
+body #skills .col.css:hover, body #projects .col.css:hover {
+  color: #254bdd;
+  -webkit-transition: color 1.5s ease;
+  transition: color 1.5s ease;
+}
+
+body #skills .col.bootstrap:hover, body #projects .col.bootstrap:hover {
+  color: #6d11ee;
+  -webkit-transition: color 1.5s ease;
+  transition: color 1.5s ease;
+}
+
+body #skills .col.sass:hover, body #projects .col.sass:hover {
+  color: #c76395;
+  -webkit-transition: color 1.5s ease;
+  transition: color 1.5s ease;
+}
+
+body #skills .col.javascript:hover, body #projects .col.javascript:hover {
+  color: #efd81d;
+  -webkit-transition: color 1.5s ease;
+  transition: color 1.5s ease;
+}
+
+body #skills .col.reactjs:hover, body #projects .col.reactjs:hover {
+  color: #00c6f7;
+  -webkit-transition: color 1.5s ease;
+  transition: color 1.5s ease;
+}
+
+body #skills .col.wordpress:hover, body #projects .col.wordpress:hover {
+  color: #207195;
+  -webkit-transition: color 1.5s ease;
+  transition: color 1.5s ease;
 }
 
 body .card {

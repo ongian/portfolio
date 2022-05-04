@@ -12,26 +12,33 @@ const Skills = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col className="html">
                         <FontAwesomeIcon icon={faHtml5} />
+                        <small>HTML5</small>
                     </Col>
-                    <Col>
+                    <Col className="css">
                         <FontAwesomeIcon icon={faCss3} />
+                        <small>CSS3</small>
                     </Col>
-                    <Col>
+                    <Col className="bootstrap">
                         <FontAwesomeIcon icon={faBootstrap} />
+                        <small>Bootstrap</small>
                     </Col>
-                    <Col>
+                    <Col className="sass">
                         <FontAwesomeIcon icon={faSass} />
+                        <small>SASS</small>
                     </Col>
-                    <Col>
+                    <Col className="javascript">
                         <FontAwesomeIcon icon={faJs} />
+                        <small>Javascript</small>
                     </Col>
-                    <Col>
+                    <Col className="reactjs">
                         <FontAwesomeIcon icon={faReact} />
+                        <small>ReactJS</small>
                     </Col>
-                    <Col>
+                    <Col className="wordpress">
                         <FontAwesomeIcon icon={faWordpress} />
+                        <small>Wordpress</small>
                     </Col>
                 </Row>
             </Container>

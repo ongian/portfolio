@@ -3,6 +3,7 @@ $primary: #E0B15D;
 $secondary: #e95548;
 $darkBG: #1E1D20;
 $primaryHover: #ffaa13;
+$secondaryHover: #b32e23;
 body {
     background: $darkBG!important;
     color: $primary!important;
@@ -56,17 +57,89 @@ body {
         img {
             max-width: 400px;
         }
+        .resume {
+            background: $secondary;
+            border: none;
+            color: #fff;
+            &:hover {
+                background-color: $secondaryHover;
+                transition: all .5s ease;
+            }
+        }
+        .contact {
+            a {
+                font-size: 2.5rem;
+                margin: 0 10px;
+                .fa-github-square {
+                    color: #fff;
+                }
+                .faLinkedin {
+                    color: #0a66c2;
+                }
+                .fa-envelope {
+                    color: $primary;
+                }
+            }
+        }
     }
     #skills, #projects {
-        margin: 4rem 0;
+        padding: 4rem 0;
         h2 {
             color: $secondary;
         }
         .col {
             text-align: center;
             margin: 2rem 1rem;
+            color: $primary;
+            transition: all .25s ease;
             svg {
                 font-size: 3rem;
+            }
+            small {
+                display: block;
+                margin: 1em;
+            }
+            &.html {
+                &:hover {
+                    color: #dd4b25;
+                    transition: color 1.5s ease;
+                }
+            }
+            &.css {
+                &:hover {
+                    color: #254bdd;
+                    transition: color 1.5s ease;
+                }
+            }
+            &.bootstrap {
+                &:hover {
+                    color: #6d11ee;
+                    transition: color 1.5s ease;
+                }
+            }
+            &.sass {
+                &:hover {
+                    color: #c76395;
+                    transition: color 1.5s ease;
+                }
+            }
+            &.javascript {
+                &:hover {
+                    color: #efd81d;
+                    transition: color 1.5s ease;
+                }
+            }
+            &.reactjs {
+                &:hover {
+                    color: #00c6f7;
+                    transition: color 1.5s ease;
+                }
+            }
+            &.wordpress {
+                &:hover {
+                    color: #207195;
+                    transition: color 1.5s ease;
+                }
             }
         }
     }

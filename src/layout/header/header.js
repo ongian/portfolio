@@ -19,7 +19,7 @@ const Header = () => {
                 id="offcanvasNavbar-expand-lg"
                 aria-labelledby="offcanvasNavbarLabel-expand-lg"
                 placement="end"
-                show={show}
+                show={show ? true : undefined}
                 onHide={toggleCanvas}>
                 <Offcanvas.Header className="justify-content-end">
                     <FontAwesomeIcon icon={faXmark} onClick={toggleCanvas} />
