@@ -11,6 +11,12 @@ body {
     background: $darkBG!important;
     color: $primary!important;
     padding-top: 60px;
+    p {
+        font-size: 1.25rem;
+    }
+    small {
+        font-size: 1rem;
+    }
     nav {
         background-color: $bg;
         height: 60px;
@@ -165,10 +171,11 @@ body {
             text-align: center;
             font-size: 1rem;
             margin: auto;
-            left: 0;
-            right: 0;
-            bottom: 10px;
+            background: $secondary;
+            padding: 10px;
+            bottom: 0;
             color: #fff;
+            width: 100%;
         }
         .backdrop {
             position: absolute;
