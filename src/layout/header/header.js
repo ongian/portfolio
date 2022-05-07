@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { Container, Navbar, Nav, Offcanvas } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
@@ -12,6 +12,14 @@ const Header = () => {
             setShow(false)
         }, 1000)
     }
+    useEffect(() => {
+        if(window.location.hash){
+            const scrollSection = document.querySelector(window.location.hash);
+            scrollSection && setTimeout(window.scrollTo({top: scrollSection.offsetTop, left: 0, behavior: 'smooth' }), 1000)
+        }
+        
+    }, [window.location.hash])
+    
     return ( 
     <Navbar expand="lg" className="mb-3" fixed="top" collapseOnSelect>
         <Container>
