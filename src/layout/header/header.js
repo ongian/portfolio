@@ -43,6 +43,7 @@ const Header = () => {
                     <Nav className="justify-content-end flex-grow-1 pe-3">
                         <Nav.Link href="/#skills" onClick={closeOnLinkClick}>Skills</Nav.Link>
                         <Nav.Link href="/#projects" onClick={closeOnLinkClick}>Projects</Nav.Link>
+                        <Nav.Link href="/#contact" onClick={closeOnLinkClick}>Contact</Nav.Link>
                     </Nav>
                 </Offcanvas.Body>
             </Navbar.Offcanvas>

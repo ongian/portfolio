@@ -115,15 +115,24 @@ body .masthead .contact a .fa-envelope {
   color: #E0B15D;
 }
 
-body #skills, body #projects {
+body section {
   padding: 4rem 0;
 }
 
-body #skills h2, body #projects h2 {
+body section h2 {
   color: #e95548;
 }
 
-body #skills .col, body #projects .col {
+body section#contact form input, body section#contact form textarea {
+  border: 1px solid #E0B15D;
+  padding: 10px 15px;
+  background: #e7e7e7;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+body section .col {
   text-align: center;
   margin: 2rem 1rem;
   color: #E0B15D;
@@ -131,52 +140,52 @@ body #skills .col, body #projects .col {
   transition: all .25s ease;
 }
 
-body #skills .col svg, body #projects .col svg {
+body section .col svg {
   font-size: 3rem;
 }
 
-body #skills .col small, body #projects .col small {
+body section .col small {
   display: block;
   margin: 1em;
 }
 
-body #skills .col.html:hover, body #projects .col.html:hover {
+body section .col.html:hover {
   color: #dd4b25;
   -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
 
-body #skills .col.css:hover, body #projects .col.css:hover {
+body section .col.css:hover {
   color: #254bdd;
   -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
 
-body #skills .col.bootstrap:hover, body #projects .col.bootstrap:hover {
+body section .col.bootstrap:hover {
   color: #6d11ee;
   -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
 
-body #skills .col.sass:hover, body #projects .col.sass:hover {
+body section .col.sass:hover {
   color: #c76395;
   -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
 
-body #skills .col.javascript:hover, body #projects .col.javascript:hover {
+body section .col.javascript:hover {
   color: #efd81d;
   -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
 
-body #skills .col.reactjs:hover, body #projects .col.reactjs:hover {
+body section .col.reactjs:hover {
   color: #00c6f7;
   -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
 
-body #skills .col.wordpress:hover, body #projects .col.wordpress:hover {
+body section .col.wordpress:hover {
   color: #207195;
   -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
