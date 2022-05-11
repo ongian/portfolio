@@ -116,7 +116,7 @@ body .masthead .contact a .fa-envelope {
 }
 
 body section {
-  padding: 4rem 0;
+  padding: 3rem 0;
 }
 
 body section h2 {
@@ -130,6 +130,22 @@ body section#contact form input, body section#contact form textarea {
   border-radius: 5px;
   width: 100%;
   font-size: 1.25rem;
+}
+
+body section#contact form button {
+  background-color: #e95548;
+  border: none;
+  font-size: 1.25rem;
+  display: block;
+  width: 100%;
+  margin: auto;
+  line-height: 2.5rem;
+}
+
+body section#contact form button:hover {
+  background-color: #b32e23;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 body section .col {

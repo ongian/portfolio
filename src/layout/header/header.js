@@ -10,12 +10,12 @@ const Header = () => {
     const closeOnLinkClick = () => {
         setTimeout(() => {
             setShow(false)
-        }, 1000)
+        }, 500)
     }
     useEffect(() => {
         if(window.location.hash){
             const scrollSection = document.querySelector(window.location.hash);
-            scrollSection && setTimeout(window.scrollTo({top: scrollSection.offsetTop, left: 0, behavior: 'smooth' }), 1000)
+            scrollSection && setTimeout(window.scrollTo({top: scrollSection.offsetTop, left: 0, behavior: 'smooth' }), 1500)
         }
         
     }, [window.location.hash])
