@@ -41,6 +41,7 @@ const Contact = () => {
 
     let emailStatus = null;
     const onSubmitHandler = async(e) => {
+        console.log(formData)
         e.preventDefault();
         try {
             const send = await emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_NAME, contactform.current, process.env.REACT_APP_PUBLIC_KEY);
