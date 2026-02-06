@@ -105,7 +105,8 @@ const Contact = () => {
                         <Toast
                             bg="dark"
                             className="col-12 mb-2 p-2"
-                            show={true}
+                            in={success}
+                            show={success}
                             delay={3000}
                             autohide
                         >
