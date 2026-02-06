@@ -99,14 +99,19 @@ body {
             color: $secondary;
         }
         &#contact {
+            .toast {
+                width: 100%;
+            }
             form {
                 input, textarea {
                     border: 1px solid $primary;
-                    padding: 10px 15px;
                     background: #e7e7e7;
                     border-radius: 5px;
                     width: 100%;
                     font-size: 1.25rem;
+                }
+                textarea {
+                    height: 150px;
                 }
                 button {
                     background-color: $secondary;
