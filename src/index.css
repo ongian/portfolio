@@ -7,33 +7,26 @@ body {
   color: #E0B15D !important;
   padding-top: 60px;
 }
-
 body p {
   font-size: 1.25rem;
 }
-
 body small {
   font-size: 1rem;
 }
-
 body nav {
   background-color: #20222B;
   height: 60px;
 }
-
 body nav a, body nav button span {
   color: #E0B15D;
 }
-
 body nav a.navbar-brand, body nav button span.navbar-brand {
   color: #E0B15D !important;
 }
-
 body nav .nav-toggle {
   background: none;
   border: none;
 }
-
 body nav .nav-toggle span {
   display: block;
   height: 2px;
@@ -41,46 +34,32 @@ body nav .nav-toggle span {
   background-color: #E0B15D;
   margin: 5px 0;
 }
-
 body .offcanvas {
   background-color: #20222B;
 }
-
 body .offcanvas a {
   color: #E0B15D !important;
 }
-
 body .offcanvas a:hover {
   color: #ffaa13 !important;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 }
-
 body .offcanvas .fa-xmark {
   font-size: 2rem;
   cursor: pointer;
 }
-
 body .offcanvas .fa-xmark:hover {
   color: #ffaa13;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-
 body .masthead {
   min-height: 100vh;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  align-items: center;
   display: flex;
 }
-
 body .masthead h1 {
   color: #e95548;
 }
-
 body .masthead .resume {
   background: #e95548;
   border: none;
@@ -90,48 +69,43 @@ body .masthead .resume {
   line-height: 2rem;
   padding: 15px;
 }
-
 body .masthead .resume:hover {
   background-color: #b32e23;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-
 body .masthead .contact a {
   font-size: 5rem;
   line-height: 1.5rem;
   margin: 0 10px;
 }
-
 body .masthead .contact a .fa-github-square {
   color: #fff;
 }
-
 body .masthead .contact a .faLinkedin {
   color: #0a66c2;
 }
-
 body .masthead .contact a .fa-envelope {
   color: #E0B15D;
 }
-
 body section {
   padding: 3rem 0;
 }
-
 body section h2 {
   color: #e95548;
 }
-
+body section#contact .toast {
+  width: 100%;
+}
 body section#contact form input, body section#contact form textarea {
   border: 1px solid #E0B15D;
-  padding: 10px 15px;
   background: #e7e7e7;
   border-radius: 5px;
   width: 100%;
   font-size: 1.25rem;
 }
-
+body section#contact form textarea {
+  height: 150px;
+}
 body section#contact form button {
   background-color: #e95548;
   border: none;
@@ -141,86 +115,63 @@ body section#contact form button {
   margin: auto;
   line-height: 2.5rem;
 }
-
 body section#contact form button:hover {
   background-color: #b32e23;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-
 body section .col {
   text-align: center;
   margin: 2rem 1rem;
   color: #E0B15D;
-  -webkit-transition: all .25s ease;
-  transition: all .25s ease;
+  transition: all 0.25s ease;
 }
-
 body section .col svg {
   font-size: 3rem;
 }
-
 body section .col small {
   display: block;
   margin: 1em;
 }
-
 body section .col.html:hover {
   color: #dd4b25;
-  -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
-
 body section .col.css:hover {
   color: #254bdd;
-  -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
-
 body section .col.bootstrap:hover {
   color: #6d11ee;
-  -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
-
 body section .col.sass:hover {
   color: #c76395;
-  -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
-
 body section .col.javascript:hover {
   color: #efd81d;
-  -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
-
 body section .col.reactjs:hover {
   color: #00c6f7;
-  -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
-
 body section .col.wordpress:hover {
   color: #207195;
-  -webkit-transition: color 1.5s ease;
   transition: color 1.5s ease;
 }
-
 body .card {
   min-height: 200px;
   border: none;
   overflow: hidden;
   border-radius: 5px;
 }
-
 body .card img {
   position: absolute;
   width: 100%;
   height: 100%;
   z-index: 2;
 }
-
 body .card h3 {
   position: absolute;
   z-index: 4;
@@ -233,68 +184,51 @@ body .card h3 {
   color: #fff;
   width: 100%;
 }
-
 body .card .backdrop {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
   background: #1E1D20;
-  opacity: .75;
+  opacity: 0.75;
   z-index: 3;
 }
-
 body .card .desc {
   background: #20222B;
   text-align: center;
   padding: 15px;
   top: -100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  flex-flow: column;
+  justify-content: space-between;
+  transition: all 0.5s ease;
 }
-
 body .card .desc p {
   color: #E0B15D;
   font-size: 1rem;
-  margin: .25rem 0;
+  margin: 0.25rem 0;
 }
-
 body .card .desc span {
   margin: 2px;
-  font-size: .7rem;
+  font-size: 0.7rem;
 }
-
 body .card .desc a.btn {
   margin-top: 15px;
   width: 100%;
   background-color: #e95548;
   border: none;
 }
-
 body .card .desc a.btn:hover {
   background-color: #b32e23;
 }
-
 body .card:hover .desc {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
   z-index: 5;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-
 body .card:hover h3 {
   display: none;
 }
@@ -312,5 +246,4 @@ body .card:hover h3 {
   body .masthead .resume {
     max-width: 250px;
   }
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
